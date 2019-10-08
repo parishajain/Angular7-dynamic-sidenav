@@ -1,0 +1,18 @@
+<mat-toolbar class="navbar">
+    <span class="navbar-left-actions" (click)="expandSideNav()">
+        <fa-icon [icon]= "expandedSideNav ? faWindowClose : faBars"></fa-icon>
+    </span>
+
+    <span class="navbar-header">
+      <fa-icon [icon]="faAppleAlt"></fa-icon>
+      Talent Point
+    </span>
+
+    <span class="navbar-right-actions">
+      <fa-icon [icon]="faSearch" class="faSearch fa-lg action-icon"></fa-icon>
+      <fa-icon [icon]="faBell" class="faBell fa-lg action-icon"></fa-icon>
+    </span>
+
+</mat-toolbar>
+
+

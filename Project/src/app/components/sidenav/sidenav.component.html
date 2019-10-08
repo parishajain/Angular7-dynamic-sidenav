@@ -1,0 +1,11 @@
+<mat-sidenav-container class="example-container">
+    <mat-sidenav #appDrawer class="sidenav-content" opened="false" mode="over" disableClose="true">
+        <mat-list class="sidenav-lists">
+             <app-navbar-list-details [item]="item" *ngFor="let item of listItems"></app-navbar-list-details>
+        </mat-list> 
+    </mat-sidenav>
+</mat-sidenav-container>
+
+
+
+

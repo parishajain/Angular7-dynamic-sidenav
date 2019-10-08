@@ -1,0 +1,64 @@
+.navbar-lists {
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px solid #353333;
+}
+
+.navbar-lists-color-indicator {
+    width: 5px;
+    height: 49px;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-lists-color-indicator.blue {
+    background-color: blue; 
+}
+
+.navbar-lists-color-indicator.magenta {
+    background-color: magenta;
+}
+
+.navbar-lists-color-indicator.orange {
+    background-color: orange;
+}
+
+.navbar-lists-color-indicator.purple {
+    background-color: purple;
+}
+
+.navbar-lists-color-indicator.green {
+    background-color: green;
+}
+
+.navbar-lists-color-indicator.gray {
+    background-color: gray;
+}
+
+.list-icon {
+    font-weight: 200 !important;
+    position: absolute;
+    right: 26px;
+    top: 16px;
+}
+
+.navbar-list-title {
+    padding-left: 32px !important;
+    font-weight: 200 !important;
+}
+
+.navbar-child-list {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #353333;
+}
+.navbar-child-list .navbar-list-title{
+    color: #979797;
+    padding-left: 47px !important;
+    font-size: 14px;
+}
+
+.navbar-child-list .navbar-lists {
+    height: 40px;
+    border-bottom: none;
+}
+

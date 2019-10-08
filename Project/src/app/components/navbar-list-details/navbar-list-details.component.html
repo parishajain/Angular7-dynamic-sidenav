@@ -1,0 +1,13 @@
+
+<mat-list-item (click)="onItemSelected(item)" class="navbar-lists">
+    <div class="navbar-lists-color-indicator {{item.color}}"></div>
+    <span class="navbar-list-title">{{item.title}}</span> 
+    <div *ngIf= "item.children && item.children.length" class="list-icon">
+      <fa-icon [icon]= "listExpanded ? faMinus : faPlus"></fa-icon>
+    </div>
+</mat-list-item>
+
+<div *ngIf="listExpanded" class="navbar-child-list">
+    <app-navbar-list-details *ngFor="let child of item.children" [item]= "child">
+    </app-navbar-list-details>
+</div>

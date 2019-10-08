@@ -1,0 +1,17 @@
+.example-container {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.sidenav-content {
+  background-color: black;
+  color: white;  
+  width: 25%;
+}
+
+.mat-list-base .mat-list-item .mat-list-item-content {
+  padding: 0px !important;
+}
